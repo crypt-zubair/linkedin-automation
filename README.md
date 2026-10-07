@@ -1,1 +1,1 @@
-# linkedin-automation
+# LinkedIn Tech Fact Autopilot
