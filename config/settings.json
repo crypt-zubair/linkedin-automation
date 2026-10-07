@@ -1,0 +1,10 @@
+{
+  "project": "LinkedIn Tech Fact Autopilot",
+  "daily_posts": 1,
+  "test_days": 30,
+  "max_posts": 30,
+  "fact_source_policy": "verified facts only",
+  "ai_role": "rewrite and format facts, never invent facts",
+  "publishing": "LinkedIn official Posts API",
+  "default_style_rotation": ["surprise", "question", "comparison", "story"]
+}
