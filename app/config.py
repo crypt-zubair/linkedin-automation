@@ -14,6 +14,7 @@ TOKEN_FILE = DATA_DIR / "token.json"
 
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://127.0.0.1:11434").rstrip("/")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2")
+ENABLE_AI_FACT_CHECK = os.getenv("ENABLE_AI_FACT_CHECK", "true").strip().lower() in {"1","true","yes","on"}
 TEST_MODE = os.getenv("TEST_MODE", "true").strip().lower() in {"1","true","yes","on"}
 MAX_POSTS = int(os.getenv("MAX_POSTS", "30"))
 MIN_QUALITY_SCORE = float(os.getenv("MIN_QUALITY_SCORE", "7.5"))
